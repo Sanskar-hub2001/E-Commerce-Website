@@ -38,7 +38,7 @@ const AddProduct = () => {
 
       if (imgUrl) {
         product.image = imgUrl;
-        await fetch("http://localhost:8000/addproduct", {
+        await fetch("https://quickbuy-b8c7.onrender.com/addproduct", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
